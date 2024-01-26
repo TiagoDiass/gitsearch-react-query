@@ -13,6 +13,7 @@
 // };
 
 import { MapPin } from '@phosphor-icons/react';
+import { Repositories } from '../Repositories/Repositories';
 
 const user = {
 	username: 'TiagoDiass',
@@ -109,8 +110,8 @@ export function Profile() {
 				</div>
 			</div>
 
-			<div className="bg-slate-50 rounded-md shadow-md w-2/5 p-2">
-				<h2 className="text-xl">Repos</h2>
+			<div className="bg-slate-50 rounded-md shadow-md w-2/5 p-3">
+				<Repositories />
 			</div>
 		</main>
 	);
