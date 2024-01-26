@@ -8,7 +8,7 @@ export function SearchBar() {
 
 			<button
 				type="submit"
-				className="bg-green-600 rounded-md text-white py-2 px-4 outline-green-900"
+				className="bg-green-600 hover:bg-green-700 rounded-md text-white py-2 px-4 outline-green-900 transition-all"
 			>
 				Search
 			</button>
