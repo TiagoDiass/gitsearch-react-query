@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@biomejs/biome': 1.5.3
   '@phosphor-icons/react': ^2.0.15
+  '@tanstack/react-query': ^5.17.19
   '@types/react': ^18.2.43
   '@types/react-dom': ^18.2.17
   '@vitejs/plugin-react': ^4.2.1
@@ -16,6 +17,7 @@ specifiers:
 
 dependencies:
   '@phosphor-icons/react': 2.0.15_biqbaboplfbrettd7655fr4n2y
+  '@tanstack/react-query': 5.17.19_react@18.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -740,6 +742,19 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@tanstack/query-core/5.17.19:
+    resolution: {integrity: sha512-Lzw8FUtnLCc9Jwz0sw9xOjZB+/mCCmJev38v2wHMUl/ioXNIhnNWeMxu0NKUjIhAd62IRB3eAtvxAGDJ55UkyA==}
+    dev: false
+
+  /@tanstack/react-query/5.17.19_react@18.2.0:
+    resolution: {integrity: sha512-qaQENB6/03Gj3dFZGvdmUoqeUGlGm7P1p0RmaR04Bf1Ib1T9lLGimcC9T3oCFbrx0b2ZF21ngjFZNjj9uPJMcg==}
+    peerDependencies:
+      react: ^18.0.0
+    dependencies:
+      '@tanstack/query-core': 5.17.19
+      react: 18.2.0
+    dev: false
 
   /@types/babel__core/7.20.5:
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
